@@ -1,0 +1,36 @@
+.backgroundimg{
+
+    background-image: url("../../Assets/images/home.jpg");
+    width: 100%;
+    height: 95vh;
+    color:#ccc;
+}
+.context{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    
+}
+
+.context div{
+    margin-top: 20vh;
+    
+    background-color: rgb(138, 137, 137,0.5);
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 3% 5%;
+  }
+  
+  .griditem {
+   width: 33%;
+   height: 20vh;
+   
+  }
