@@ -1,0 +1,26 @@
+.Footer_area{
+    background-color:#232f3E ;
+    width: 100%;
+    min-height: 200px;
+    color: whitesmoke;
+
+}
+.Footer_top{
+    background-color: #354558;
+    min-height: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.Footer_links{
+    width: 70%;
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Footer_links_area span{
+    display: block;
+}

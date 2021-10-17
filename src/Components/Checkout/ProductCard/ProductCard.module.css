@@ -1,0 +1,33 @@
+.ProductCard{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.ProductCard_image{
+    
+    width: 160px;
+    height: 160px;
+    border: 2px solid #f0c14b;
+    border-radius: 10px;
+    
+}
+.ProductCard_title{
+    font-size: 16px;
+    font-weight: 600;
+}
+.ProductCard_info{
+    padding-left: 20px;
+}
+
+.ProductCard_info > button{
+    background-color: #f0c14b;
+    border: 1px solid #a88734 #9c7e31 #846a29;
+}
+
+
+.ProductCard_info > button :hover{
+   
+    background-color: #6b5620;
+}

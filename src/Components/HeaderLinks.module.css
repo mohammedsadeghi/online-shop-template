@@ -1,0 +1,27 @@
+.HeaderLinks {
+    background-color: #232f3e;
+    height: 39px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.HeaderLinks_outer{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.HeaderLinks_outer div a{
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+.HeaderLinks_outer div a:hover{
+    border: 1px solid #ffff;
+    border-radius: 5px;
+    padding: 5px;
+}
+.HeaderLinks_links > * {
+    margin: 5%;
+}
